@@ -35,3 +35,25 @@ ggplot(cleaned_data, aes(x = city, y = aqi, fill = city)) +
   theme_minimal() +
   labs(title = "Air Quality Index (AQI) Comparison Across Cities", x = "City", y = "AQI")
 ```
+# Time-Series Forecasting 
+```r
+# Load time series forecasting libraries
+library(forecast)
+
+# Group data by city and prepare for time series analysis
+air_quality_ts <- air_quality_data %>%
+  group_by(city) %>%
+  arrange(timestamp) %>%
+  summarize(mean_aqi = mean(aqi))
+
+# Convert data to time series object for a specific city
+ts_data <- ts(air_quality_ts$mean_aqi, frequency = 365)
+
+# Fit ARIMA model for forecasting
+fit <- auto.arima(ts_data)
+
+# Forecast for the next 30 days
+forecasted_aqi <- forecast(fit, h = 30)
+
+# Plot the forecast
+plot(forecasted_aqi, main = "30-Day AQI Forecast")
