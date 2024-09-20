@@ -11,4 +11,4 @@ visualizations in Tableau to showcase real-time and historical air quality trend
 - [Import Data into SQL](https://github.com/temidataspot/Real-Time_Air_Quality_Monitoring/blob/main/%5BSQL%5D%20Importing%20Data%20and%20Storage.md)
 - [Data Cleaning and Analysis in R](https://github.com/temidataspot/Real-Time_Air_Quality_Monitoring/blob/main/Data%20Cleaning%20and%20Analysis%20in%20R.md)
 - [Forecasting Air Quality in R](https://github.com/temidataspot/Real-Time_Air_Quality_Monitoring/blob/main/Cleaning%2C%20Forecasting%2C%20and%20Analysis%20in%20R.md)
-- Visualization in Tableau
+- [Visualization in Tableau](https://github.com/temidataspot/Real-Time_Air_Quality_Monitoring/blob/main/Visualization%20in%20Tableau.md)
