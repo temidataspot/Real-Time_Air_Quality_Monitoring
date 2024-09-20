@@ -7,7 +7,7 @@ for data cleaning and analysis. Predictive modeling was done in R to forecast ai
 visualizations in Tableau to showcase real-time and historical air quality trends across multiple cities.
 
 # This project involved five major steps:
-- API Query for Real-Time Air Quality Data
+- [API Query for Real-Time Air Quality Data](https://github.com/temidataspot/Real-Time_Air_Quality_Monitoring/blob/main/API%20Query%20%5BPython%5D.md)
 - Import Data into SQL
 - Data Cleaning and Analysis in R
 - Forecasting Air Quality in R
