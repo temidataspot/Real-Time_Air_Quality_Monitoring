@@ -1,7 +1,7 @@
-# Step 2: Import Data into SQL
+-- Step 2: Import Data into SQL
 
-# Objective
-Store the air quality data in a SQL database for historical tracking and easier querying.
+-- Objective
+-- Store the air quality data in a SQL database for historical tracking and easier querying.
 
 ```sql
 # Connecting to the SQL database
