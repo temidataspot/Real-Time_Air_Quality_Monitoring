@@ -1,4 +1,4 @@
-# 3: Cleaning, Forecasting, and Analysis in R
+# Cleaning, Forecasting, and Analysis in R
 
 # Objective
 Clean the air quality data and analyze trends, correlations, and outliers using R.
