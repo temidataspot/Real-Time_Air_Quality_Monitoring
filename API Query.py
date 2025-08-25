@@ -1,14 +1,8 @@
+```python
 # Step 1: API Query for Real-Time Air Quality Data
 
-# Objective
-Use an API to query real-time air quality data for multiple cities across the globe.
+# Objective: Use an API to query real-time air quality data for multiple cities across the globe.
 
-# Tools
-API: OpenWeatherMap API (Air Pollution endpoint)
-Python for API querying
-SQL for data storage
-
-```python
 import requests
 import pandas as pd
 import mysql.connector
