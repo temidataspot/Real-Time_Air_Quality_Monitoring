@@ -14,7 +14,7 @@ library(ggplot2)
 
 # Connect to MySQL database
 con <- dbConnect(RMySQL::MySQL(), dbname = "air_quality_db", host = "localhost", 
-                 user = "root", password = "password")
+                 user = "****", password = "****")
 
 # Query the air quality data
 air_quality_data <- dbGetQuery(con, "SELECT * FROM air_quality")
